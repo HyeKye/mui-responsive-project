@@ -11,8 +11,8 @@ function App() {
     <Box>
       <NavBar />
       <Stack direction="row" spacing={2} justifyContent="center">
-        <Feed />
         <SideBar />
+        <Feed />
         <RightBar />
       </Stack>
     </Box>
