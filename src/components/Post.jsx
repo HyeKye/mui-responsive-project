@@ -7,7 +7,7 @@ import Favorite from '@mui/icons-material/Favorite';
 
 const Post = () => {
   return (
-    <Card >
+    <Card sx={{margin:5}}>
         <CardHeader
           avatar={
             <Avatar sx={{ bgcolor: "red" }} src="https://avatars.dicebear.com/api/open-peeps/your-custom-seed.svg">

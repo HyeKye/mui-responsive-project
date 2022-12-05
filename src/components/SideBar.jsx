@@ -16,72 +16,74 @@ export const SideBar = () => {
       p={2}
       sx={{display: { xs: "none", sm:"block"}}}
     >
-      <List>
-          <ListItem disablePadding>
-            <ListItemButton component="a" href="#simpe-list">
-              <ListItemIcon>
-                <HomeIcon/>
-              </ListItemIcon>
-              <ListItemText primary="Homepage" />
-            </ListItemButton>
-          </ListItem>
-          <ListItem disablePadding>
-            <ListItemButton component="a" href="#simpe-list">
-              <ListItemIcon>
-                <PeopleIcon/>
-              </ListItemIcon>
-              <ListItemText primary="Pages" />
-            </ListItemButton>
-          </ListItem>
-          <ListItem disablePadding>
-            <ListItemButton component="a" href="#simpe-list">
-              <ListItemIcon>
-                <ArticleIcon/>
-              </ListItemIcon>
-              <ListItemText primary="Groups" />
-            </ListItemButton>
-          </ListItem>
-          <ListItem disablePadding>
-            <ListItemButton component="a" href="#simpe-list">
-              <ListItemIcon>
-                <GroupsIcon/>
-              </ListItemIcon>
-              <ListItemText primary="Marketplace" />
-            </ListItemButton>
-          </ListItem>
-          <ListItem disablePadding>
-            <ListItemButton component="a" href="#simpe-list">
-              <ListItemIcon>
-                <StorefrontIcon/>
-              </ListItemIcon>
-              <ListItemText primary="Friends" />
-            </ListItemButton>
-          </ListItem>
-          <ListItem disablePadding>
-            <ListItemButton component="a" href="#simpe-list">
-              <ListItemIcon>
-                <SettingsIcon/>
-              </ListItemIcon>
-              <ListItemText primary="Settings" />
-            </ListItemButton>
-          </ListItem>
-          <ListItem disablePadding>
-            <ListItemButton component="a" href="#simpe-list">
-              <ListItemIcon>
-                <AccountBoxIcon/>
-              </ListItemIcon>
-              <ListItemText primary="Profile" />
-            </ListItemButton>
-          </ListItem>
-          <ListItem disablePadding>
-            <ListItemButton component="a" href="#simpe-list">
-              <ListItemIcon>
-                <ModeNightIcon />
-              </ListItemIcon>
-              <Switch />
-            </ListItemButton>
-          </ListItem>
-      </List>
+      <Box position="fixed">
+        <List>
+            <ListItem disablePadding>
+              <ListItemButton component="a" href="#simpe-list">
+                <ListItemIcon>
+                  <HomeIcon/>
+                </ListItemIcon>
+                <ListItemText primary="Homepage" />
+              </ListItemButton>
+            </ListItem>
+            <ListItem disablePadding>
+              <ListItemButton component="a" href="#simpe-list">
+                <ListItemIcon>
+                  <PeopleIcon/>
+                </ListItemIcon>
+                <ListItemText primary="Pages" />
+              </ListItemButton>
+            </ListItem>
+            <ListItem disablePadding>
+              <ListItemButton component="a" href="#simpe-list">
+                <ListItemIcon>
+                  <ArticleIcon/>
+                </ListItemIcon>
+                <ListItemText primary="Groups" />
+              </ListItemButton>
+            </ListItem>
+            <ListItem disablePadding>
+              <ListItemButton component="a" href="#simpe-list">
+                <ListItemIcon>
+                  <GroupsIcon/>
+                </ListItemIcon>
+                <ListItemText primary="Marketplace" />
+              </ListItemButton>
+            </ListItem>
+            <ListItem disablePadding>
+              <ListItemButton component="a" href="#simpe-list">
+                <ListItemIcon>
+                  <StorefrontIcon/>
+                </ListItemIcon>
+                <ListItemText primary="Friends" />
+              </ListItemButton>
+            </ListItem>
+            <ListItem disablePadding>
+              <ListItemButton component="a" href="#simpe-list">
+                <ListItemIcon>
+                  <SettingsIcon/>
+                </ListItemIcon>
+                <ListItemText primary="Settings" />
+              </ListItemButton>
+            </ListItem>
+            <ListItem disablePadding>
+              <ListItemButton component="a" href="#simpe-list">
+                <ListItemIcon>
+                  <AccountBoxIcon/>
+                </ListItemIcon>
+                <ListItemText primary="Profile" />
+              </ListItemButton>
+            </ListItem>
+            <ListItem disablePadding>
+              <ListItemButton component="a" href="#simpe-list">
+                <ListItemIcon>
+                  <ModeNightIcon />
+                </ListItemIcon>
+                <Switch />
+              </ListItemButton>
+            </ListItem>
+        </List>
+      </Box>
     </Box>
   )
 }
