@@ -9,7 +9,7 @@ import SettingsIcon from '@mui/icons-material/Settings';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import ModeNightIcon from '@mui/icons-material/ModeNight';
 
-export const SideBar = () => {
+export const SideBar = ({mode, setMode}) => {
   return (
     <Box
       flex={1}
@@ -79,7 +79,7 @@ export const SideBar = () => {
                 <ListItemIcon>
                   <ModeNightIcon />
                 </ListItemIcon>
-                <Switch />
+                <Switch onChange={e=>setMode(mode === "light" ? "dark" : "light")}/>
               </ListItemButton>
             </ListItem>
         </List>
